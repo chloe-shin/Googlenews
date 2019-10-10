@@ -1,0 +1,48 @@
+.bar {
+    height: 230px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .1);
+}
+
+.chloetimes {
+    display: flex;
+    justify-content: center;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bolder;
+    font-size : 80px !important;
+    font-weight: bolder !important;    
+    padding-top: 30px;
+}
+
+.additional {
+    margin-left: 100px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+
+#news {
+    width: 100%;
+    display: flex;
+    /* border: 1px solid lightgrey; */
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .1); /*10px 10px grey; box-shadow: */
+    margin-top: 50px;
+    padding : 20px;
+}
+
+#image {
+    width: 300px;
+    margin-left: 50px;
+}
+
+#more {
+    display: flex;
+    justify-content: center;    
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+} 

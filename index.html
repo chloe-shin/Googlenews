@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Lobster|Playfair+Display+SC|Prata|Vidaloka|Yeseva+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="bar">
+        <h class = chloetimes> Chloe Times </h>
+        <div class="additional">
+            <span id="numArticle"></span>
+            <div id="newsName">
+                <input type="checkbox" name="news" id="newsname"> <br>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <div id="board">
+            <div id="news">
+                <div id="newsList">
+                    <h2 id="title"> Title </h2>
+                    <p id="content">Contents</p>
+                    <div id="source">Source</div>
+                    <div id="date">Date</div>
+                    <a href="#"> View more </a>
+                </div>
+                <img id="image"
+                    src="https://cdn.vox-cdn.com/thumbor/J6s2m5h6Y9RhbQtCWmqoYyBnb5w=/0x0:4889x3327/1220x813/filters:focal(2054x1273:2836x2055):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/65429741/1152460422.jpg.0.jpg ">
+            </div>
+        </div>
+    </div>
+    <div class = "more"> <button id="more" onclick=fetchNews()> show more </button>
+    </div>
+    <script src="moment.js"> </script>
+    <script src="moment-with-locales.js"> </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
