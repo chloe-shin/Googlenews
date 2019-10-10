@@ -3,7 +3,7 @@
 Created with love by: Chloe Shin
   
 //One or two sentence summary of your project. 
-//Please check my work at: 
+//Please check my work at: chloe-googlenews.netlify.com
 
 
 ## User Stories
@@ -16,19 +16,19 @@ The following **required** functionalities are completed (this is a sample):
 
 The following **optional** functionalities are completed:
 
-- [ ] The user can click a link at the bottom of the page to load the next 20 stories. The page should not refresh; the stories should simply be added to the bottom. 
-- [ ] The user can see an updated number of stories currently shown. 
-- [ ] The user can see how long ago the story was published in a human-friendly format; e.g. "15 minutes ago". To accomplish this, we recommend you use momentjs. Please load it into your page using cdnjs or jsdelivr (these are called CDNs).
+- [x] The user can click a link at the bottom of the page to load the next 20 stories. The page should not refresh; the stories should simply be added to the bottom. 
+- [x] The user can see an updated number of stories currently shown. 
+- [x] The user can see how long ago the story was published in a human-friendly format; e.g. "15 minutes ago". To accomplish this, we recommend you use momentjs. Please load it into your page using cdnjs or jsdelivr (these are called CDNs).
 
 ## Time Spent and Lessons Learned
 
-Time spent: **X** hours spent in total.
+Time spent: **5** hours spent in total.
 
 Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [Chloe Shin] 
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
